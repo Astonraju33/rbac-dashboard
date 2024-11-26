@@ -125,7 +125,6 @@ const UserManagement = ({ users, setUsers, roles }) => {
         </Table>
       </TableContainer>
 
-
       {editUser && (
         <Dialog open={Boolean(editUser)} onClose={() => setEditUser(null)}>
           <DialogTitle>Edit User</DialogTitle>

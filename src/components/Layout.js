@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, CssBaseline, Drawer, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography } from "@mui/material";
-import PeopleIcon from "@mui/icons-material/People";
+import HomeIcon from '@mui/icons-material/Home';
 import LockIcon from "@mui/icons-material/Lock";
 
 const drawerWidth = 240;
@@ -28,7 +28,7 @@ const Layout = ({ children, setPage }) => {
         <List>
           <ListItem button onClick={() => setPage("users")}>
             <ListItemIcon>
-              <PeopleIcon />
+              <HomeIcon />
             </ListItemIcon>
             <ListItemText primary="User Management" />
           </ListItem>
